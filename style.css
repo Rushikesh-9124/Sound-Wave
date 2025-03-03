@@ -863,5 +863,37 @@ html body header .mySong .songItem h5 .subtitle{
 }
 
 
+@media screen and (max-width: 500px) {
+    header{
+        height: 110vh;
+    }
+    header .menu_side{
+        display: none;
+    }
+    header .song_side{
+        width: 100%;
+    }
+    header .song_side nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header .song_side nav ul li{
+        margin-bottom: 10px;
+    }
+
+    header .song_side nav search{
+        position: relative;
+        left: -100px;
+        
+    }
+
+    header .master_play{
+        display: flex;
+    }
+    header .master_play .bar, #currentStart, #currentEnd, .volume{
+        display: none;
+    }
+}
+
 
 
