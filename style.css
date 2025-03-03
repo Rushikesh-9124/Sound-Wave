@@ -889,6 +889,10 @@ html body header .mySong .songItem h5 .subtitle{
 
     header .master_play{
         display: flex;
+
+        position: fixed;
+        bottom: 0;
+        z-index: 10;
     }
     header .master_play .bar, #currentStart, #currentEnd, .volume{
         display: none;
